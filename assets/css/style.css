@@ -1,0 +1,30 @@
+* {
+
+}
+
+header {
+    background-color: #1B681A;
+}
+
+header .menu-list, header .logo, header .search-button {
+    display: inline-block;
+}
+
+header .menu-list ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+header .menu-list ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header .search-button{
+
+}
+header .search-button a{
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: white;
+}
