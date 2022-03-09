@@ -1,5 +1,5 @@
 * {
-
+    font-family: sans-serif;
 }
 
 header {
@@ -18,13 +18,23 @@ header .menu-list ul li {
 header .menu-list ul li a{
     text-decoration: none;
     color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+header .logo img{
+    width: 250px;
+    height: 55px;
 }
 
 header .search-button{
-
+    
 }
-header .search-button a{
+header .search-button p{
     border-radius: 50%;
-    text-decoration: none;
+    line-height: 0px;
+    width: 25px;
+    height: 25px;
     background-color: white;
+
 }
