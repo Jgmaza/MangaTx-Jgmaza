@@ -3,11 +3,18 @@
 }
 
 header {
-    background-color: #1B681A;
+    background-color: #1b681d;
 }
 
-header .menu-list, header .logo, header .search-button {
+header .menu-list,
+header .logo,
+header .search-button {
     display: inline-block;
+}
+
+header .menu-list {
+    vertical-align: top;
+    margin-top: 35px;
 }
 
 header .menu-list ul li {
@@ -15,26 +22,135 @@ header .menu-list ul li {
     list-style-type: none;
 }
 
-header .menu-list ul li a{
+header .menu-list ul li a {
     text-decoration: none;
     color: white;
     font-weight: 600;
-    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: 36px;
+
 }
 
-header .logo img{
-    width: 250px;
+header .logo img {
+    width: 225px;
     height: 55px;
+    margin: 35px 0px 32px 120px;
 }
 
-header .search-button{
-    
+header .search-button {
+    float: right;
+    margin: 30px 130px 0px 0px;
 }
-header .search-button p{
+
+header .search-button p {
     border-radius: 50%;
-    line-height: 0px;
-    width: 25px;
-    height: 25px;
+    line-height: 32px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
     background-color: white;
+}
+
+nav .nav-list {
+    margin: 2px 0px 0px 82px;
+}
+
+nav .nav-list,
+nav .buttons {
+    display: inline-block;
+}
+
+nav .nav-list li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+nav .nav-list li a {
+    text-decoration: none;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
 
 }
+
+nav .buttons {
+    float: right;
+    margin: 20px 90px 0px 0px;
+}
+
+nav .buttons a {
+    text-decoration: none;
+    color: #666;
+    border-radius: 30px;
+    border: 2px solid #666;
+    padding: 5px 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+section .tittle h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    margin-left: 120px;
+    margin-top: 50px;
+    border-bottom: 2px solid #ebebeb;
+    width: 80%;
+}
+
+section .content {
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+section .content article,
+section .content article .portada,
+section .content article .contenido-art {
+    display: inline-block;
+}
+
+section .content article .contenido-art {
+    vertical-align: top;
+    margin-left: 15px;
+}
+
+section .content article .contenido-art .titulo-manga h3 {
+    line-height: 0px;
+    font-size: 18px;
+}
+
+section .content article .contenido-art .cal-numero p {
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+section .content article .contenido-art .capitulos a{
+    background-color: #ebebeb;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #666666;
+    padding: 5px 15px;
+    font-size: 12px;    
+}
+section .content article .contenido-art .capitulos .capitulo{
+    margin-bottom: 20px;
+}
+
+.nuevo-cap{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.fecha-cap{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+section article:nth-child(1) {
+    margin-right: 150px;
+}
+
